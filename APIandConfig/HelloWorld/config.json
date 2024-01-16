@@ -23,12 +23,6 @@
             "policies": [],
             "proxies": [],
             "targets": []
-        },
-        {
-            "name": "eval",
-            "policies": [],
-            "proxies": [],
-            "targets": []
         }
     ]
 }
