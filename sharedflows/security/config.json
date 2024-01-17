@@ -27,6 +27,20 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "eval",
+            "policies": [
+                {
+                    "name": "AM-Set-Headers.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/AssignMessage/Set/Headers/Header[@name='ENV']",
+                            "value": "EVAL"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
